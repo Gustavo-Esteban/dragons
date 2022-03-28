@@ -1,0 +1,22 @@
+<div class="main">
+    <form action="">
+        <div class="content">
+            <div class="card" *ngIf="request">
+                <h1>Editar Dragão</h1>
+                <div class="form-item">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Insira o nome" [(ngModel)]="request.name">
+                </div>
+                <div class="form-item">
+                    <label for="nome">Tipo:</label>
+                    <input type="text" name="tipo" id="type" placeholder="Insira o tipo" [(ngModel)]="request.type">
+                </div>
+                <div class="button">
+                    <button class="btn ver" (click)="atualizar()">Atualizar</button>
+                    <button class="btn" routerLink="/dragon-page">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>

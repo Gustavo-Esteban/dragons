@@ -1,0 +1,17 @@
+<div class="main">
+    <form class="form" action="">
+        <div class="form-login">
+            <h1>Login</h1>
+            <input [(ngModel)]="usuario.nome" type="text" name="nome" placeholder="Nome">
+            <br><br>
+            <input [(ngModel)]="usuario.senha" type="password" name="senha" placeholder="Senha">
+            <br><br>
+            <div class="button">
+                <button class="btn logar" (click)="fazerLogin()">Entrar</button>
+                <button class="btn cadastrar">Cadastrar</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+

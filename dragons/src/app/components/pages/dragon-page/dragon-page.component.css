@@ -1,0 +1,110 @@
+.dragon-page {
+  background-color: #201b2c;
+  margin: -8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.title h1 {
+  margin: 100px;
+}
+
+span {
+  color: #ffff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.card {
+  background: #2f2841;
+  border-radius: 10px;
+  height: 320px;
+  width: 300px;
+  margin: 10px;
+}
+
+.texto {
+  padding: 30px;
+}
+
+.texto h3 {
+  color: #00ff88;
+}
+
+.texto p {
+  color: #fff;
+}
+
+.btn {
+  height: 50px;
+  width: 100px;
+  padding: 16px 0;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  
+}
+
+.ver {
+  background-color: #00ff88;
+}
+
+.btn-cadastrar {
+  height: 50px;
+  width: 150px;
+  padding: 16px 0;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.content-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-item span {
+  display: flex;
+  align-items: center;
+}
+
+.content-item p{
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.image{
+  height: 20px;
+  width: 20px;
+  color: rgb(248, 95, 7);
+  cursor: pointer;
+}
+
+.imagem{
+  display: flex;
+  justify-content: flex-end;
+}

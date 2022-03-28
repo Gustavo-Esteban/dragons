@@ -1,0 +1,25 @@
+<div class="main">
+    <form action="">
+        <div class="content">
+            <div class="card" *ngIf="dragon">
+                <h1>Deletar Dragão</h1>
+                <div class="form-item">
+                    <p class="label">Nome:</p>
+                    <p class="input name">{{dragon.name}}</p>
+                </div>
+                <div class="form-item">
+                    <p class="label">Tipo:</p>
+                    <p class="input tipo">{{dragon.type}}</p>
+                </div>
+                <div class="form-item">
+                    <p class="label">Data de criação:</p>
+                    <p class="input tipo">{{dragon.createdAt | date:'dd/MM/yyyy'}}</p>
+                </div>
+                <div class="button">
+                    <button class="btn ver" (click)="delete()">Confirmar</button>
+                    <button class="btn" routerLink="/dragon-page">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
