@@ -1,11 +1,11 @@
-.main{
+.main {
   background: #201b2c;
   margin: -8px;
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
 }
 
-.content{
+.content {
   background: #2f2841;
   position: absolute;
   top: 50%;
@@ -14,7 +14,6 @@
   border-radius: 10px;
   height: 400px;
   width: 500px;
-  margin: 10px;
 }
 
 .content h1 {
@@ -24,7 +23,7 @@
   margin-top: 50px;
 }
 
-.form-item{
+.form-item {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
@@ -55,12 +54,23 @@
   background-color: #00ff88;
 }
 
-label{
+label {
   margin-left: 50px;
   color: #fff;
 }
 
-input{
+input {
   margin-right: 50px;
   width: 300px;
+}
+
+@media (max-width: 720px) {
+  .content {
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+  }
+  input {
+    width: 100%;
+  }
 }

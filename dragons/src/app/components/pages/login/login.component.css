@@ -1,4 +1,4 @@
-.main{
+.main {
     height: 100vh;
     display: flex;
     margin: -8px;
@@ -7,33 +7,37 @@
     justify-content: center;
 }
 
-.form-login{
+.form-login {
     background: #2f2841;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 80px;
+    width: 500px;
     border-radius: 15px;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.form-login h1{
+.form-login h1 {
     color: #00ff88;
     font-weight: 800;
     text-align: center;
     margin-bottom: 50px;
 }
 
-input{
+input {
     padding: 15px;
     border: none;
     outline: none;
     font-size: 15px;
 }
 
-.btn{
+.btn {
     height: 50px;
     width: 100px;
     padding: 16px 0;
@@ -44,11 +48,21 @@ input{
     cursor: pointer;
 }
 
-.button{
+.button {
     display: flex;
     justify-content: center;
 }
 
-.logar{
+.logar {
     background-color: #00ff88;
+}
+
+@media (max-width: 720px) {
+    .form-login {
+        width: 100%;
+        height: auto;
+    }
+    input {
+        width: 60%;
+    }
 }
